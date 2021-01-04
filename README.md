@@ -13,3 +13,8 @@ from click_easylog import attach_logger_options, get_logger
 def action()
     logger = get_logger()
 ```
+
+`attach_logger_options` added some `loglevel` and `logto` options on the command:
+
+- `logto` - `<stdout>`, `<stderr>` or any file name.
+- `loglevel` - `info`, `warn`, etc.
